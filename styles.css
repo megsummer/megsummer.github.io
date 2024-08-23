@@ -1,5 +1,55 @@
 body{
-    margin: 0;
-    background: white;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #B2C8DB;
+}
+
+.center-box{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* border: 10px solid #96A854; */
+    color: black
+}
+
+.title{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.about-me{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.button {
+    align-self: flex-end; /* Aligns the button to the left */
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px 20px; /* Adjusts padding to make the button a comfortable size */
+    /* background-color: #4CAF50;  */
+    color: black; /* Text color */
+    border: none; /* Removes border */
+    border-radius: 5px; /* Optional: adds rounded corners */
+    cursor: pointer;
+    transition-duration: 0.4s; /* Smooth transition for hover effect */
+    display: inline-block; /* Ensures button does not take up full width */
+    width: auto; /* Allows the button to size according to its content */
+}
+
+.button:hover {
+    color: #96A854; /* Optional: hover effect */
+    text-decoration: underline;
 }
